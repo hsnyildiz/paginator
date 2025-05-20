@@ -40,6 +40,7 @@ defmodule Paginator.Mixfile do
       {:ex_machina, "~> 2.8", only: :test},
       {:inch_ex, "~> 2.0", only: [:dev, :test]},
       {:postgrex, "~> 0.20.0", optional: true},
+      # broader version range
       {:plug_crypto, ">= 1.2.0 and < 3.0.0"}
     ]
   end
